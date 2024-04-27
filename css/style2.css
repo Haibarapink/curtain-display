@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width:800px) {
+@media (min-width:800px) {
     .curtain-march {
         display: block;
         height: auto;
