@@ -4,7 +4,7 @@
 }
 
 .curtain-march {
-    display: flex;
+    display: block;
     height: 600px;
 }
 
@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width:800px) {
+@media (max-width:800px) {
     .curtain-march {
         display: block;
         height: auto;
