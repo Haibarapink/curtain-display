@@ -1,0 +1,30 @@
+.product-container {
+    display: block;
+    width: 100%;
+}
+
+.curtain-march {
+    display: flex;
+    height: 600px;
+}
+
+.curtain-product {
+    display: block;
+    margin: 10px;
+    width: 30%;
+    background: pink;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* 图片填充整个容器并保持原始比例 */
+    }
+}
+
+.curtain-product-img {
+
+}
+
+.curtain-product-info {
+
+}
