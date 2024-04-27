@@ -12,7 +12,7 @@
     display: block;
     margin: 10px;
     width: 30%;
-    background: pink;
+    background: white;
 
     img {
         width: 100%;
@@ -21,16 +21,16 @@
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:800px) {
     .curtain-march {
         display: block;
+        height: auto;
     }
 
     .curtain-product {
-        display: block;
         margin: 10px;
-        width: 30%;
-        background: pink;
+        width: 100%;
+        background: white;
 
         img {
             width: 100%;
